@@ -1,16 +1,26 @@
 <template>
-  <div class="bg-white rounded p-8">
-    <div class="h-12 rounded full border-1 bg-blackk mt-8">
-      New York Public Library
+  <div class="bg-white rounded-lg p-8">
+    <div class="mt-2 mb-6 flex items-center">
+      <div>
+        <i class="fas fa-chess-queen text-2xl"></i>
+      </div>
+      <div class="ml-4">
+        <p class="text-gray-500 text-base font-medium">
+          New York Public Library
+        </p>
+      </div>
     </div>
-    <div class="text-xl">
-      a Silicon Valley adventure Kaplan, a well known figure in th e computer
-      indusry, founded GO corporation in 1987, and for ventures in the valley.
-      Startup tells the story of Kaplan's wild ride: how he assembled a
-      brilliant but fractious team of engineers , software desigers, and
-      investores; pioneered the emerging market for hand-held computers operated
-      with a pen instead of a keyboard; and careened from crisis to crisis
-      without ever losing his passion for a revolutionary idea.
+    <div>
+      <b class="__all">a Silicon Valley adventure Kaplan</b>,
+      <p class="text-base text-gray-500 font-medium mt-3">
+        a well known figure in th e computer indusry, founded GO corporation in
+        1987, and for ventures in the valley. Startup tells the story of
+        Kaplan's wild ride: how he assembled a brilliant but fractious team of
+        engineers , software desigers, and investores; pioneered the emerging
+        market for hand-held computers operated with a pen instead of a
+        keyboard; and careened from crisis to crisis without ever losing his
+        passion for a revolutionary idea.
+      </p>
     </div>
     <comment />
   </div>
@@ -22,3 +32,8 @@ export default {
   components: { Comment },
 }
 </script>
+<style scoped>
+.all {
+  color: #37352f;
+}
+</style>

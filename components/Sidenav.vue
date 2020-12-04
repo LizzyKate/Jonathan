@@ -1,5 +1,7 @@
 <template>
-  <div class="flex flex-col px-5">
+  <div
+    class="flex flex-col px-5 fixed t-0 b-0 lg:block bg-white h-screen w-full"
+  >
     <div class="flex flex-col">
       <div
         class="bg-gray-400 p-2 mt-8 rounded-lg w-full flex justify-between items-center"

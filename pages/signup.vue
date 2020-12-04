@@ -15,7 +15,7 @@
           <div
             class="flex flex-col justify-center md:justify-start my-auto pt-8 md:pt-0 px-8 md:px-24 lg:px-32"
           >
-            <p class="text-center text-3xl">Join Us.</p>
+            <p class="text-center lg:text-3xl text-2xl">Join Us.</p>
             <div
               class="flex flex-col justify-center md:justify-start my-auto pt-8 md:pt-0 px-8 md:px-24 lg:px-32"
             >

@@ -1,14 +1,14 @@
 <template>
   <div class="w-full shadow bg-white mb-4">
     <div class="flex justify-between items-center pt-8 px-8 pb-4">
-      <div class="flex justify-between items-center w-2/5">
+      <div class="flex justify-between items-center md:w-2/5 w-4/5">
         <div>
           <a href="#" class="text-2xl"
             >Logo
             <img src="" alt="" />
           </a>
         </div>
-        <div class="ml-4 relative flex-grow">
+        <div class="ml-4 relative hiddedn md:block flex-grow">
           <input
             type="text"
             placeholder="Generation Y"
@@ -18,11 +18,11 @@
             <i class="fas fa-search text-sm"></i>
           </div>
         </div>
-        <div class="ml-4">
+        <div class="ml-4 hidden md:block">
           <a href="#" class="text-xl font-bold __help">Help</a>
         </div>
       </div>
-      <div class="flex justify-between items-center">
+      <div class="flex justify-between items-center hidden md:flex">
         <div>
           <i class="fas fa-plus text-base __help"></i>
         </div>
@@ -41,6 +41,7 @@
           F
         </button>
       </div>
+      <div class="flex justify-between items-center block md:hidden">Menu</div>
     </div>
     <div class="w-full line"></div>
   </div>

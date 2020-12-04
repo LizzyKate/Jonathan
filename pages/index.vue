@@ -10,7 +10,7 @@ export default {
   components: {
     Index,
   },
-  middleware: ['auth'],
+  // middleware: ['auth'],
 }
 </script>
 

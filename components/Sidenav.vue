@@ -1,29 +1,21 @@
 <template>
-  <div class="flex flex-col">
+  <div class="flex flex-col px-5">
     <div class="flex flex-col">
       <div
         class="bg-gray-400 p-2 mt-8 rounded-lg w-full flex justify-between items-center"
       >
-        <div>
-          <p class="text-base font-semibold __all">All</p>
-        </div>
-        <div>
-          <p class="text-sm __all font-light">34 Results</p>
-        </div>
+        <span class="text-xl font-semibold __all">All</span>
+        <span class="text-base __all font-thin">34 Results</span>
       </div>
-      <div class="mt-4">
-        <p class="text-gray-600 text-base">Images</p>
-      </div>
-      <div class="mt-3">
-        <p class="text-gray-600 text-base">Videos</p>
-      </div>
+      <ul class="mt-4 list-none p-2">
+        <li class="text-gray-600 text-xl my-3">Images</li>
+        <li class="text-gray-600 text-xl my-4">Videos</li>
+      </ul>
     </div>
-    <div class="mt-12 flex flex-col">
-      <div>
-        <p class="text-base font-semibold __all">Sources</p>
-      </div>
+    <div class="mt-12 flex flex-col px-2">
+      <div class="text-bold">Sources</div>
       <div class="mt-2 flex flex-col">
-        <div class="flex mt-2" v-for="(link, i) in sources" :key="i">
+        <div v-for="(link, i) in sources" :key="i" class="flex mt-3">
           <div>
             <i :class="link.font"></i>
           </div>

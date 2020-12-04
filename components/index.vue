@@ -1,21 +1,19 @@
 <template>
-  <div>
-    <div class="relative">
-      <Nav />
-    </div>
+  <div class="mx-auto bg-gray-300">
+    <Nav />
 
     <div class="flex relative">
-      <div class="w-1/5 __side h-screen px-4 fixed">
+      <div class="w-1/4">
         <Sidenav />
       </div>
-      <div class="w-4/5 min-h-screen flex-grow">
+      <div class="min-h-screen w-3/4">
         <Content />
       </div>
     </div>
   </div>
 </template>
 <script>
-import Nav from './nav'
+import Nav from './Nav'
 import Sidenav from './Sidenav'
 import Content from './Content'
 export default {
@@ -26,9 +24,4 @@ export default {
   },
 }
 </script>
-<style scoped>
-.__side {
-  background: #dde3e8;
-  top: 82px;
-}
-</style>
+<style scoped></style>

@@ -9,13 +9,11 @@
           </a>
         </div>
         <div class="ml-4 relative flex-grow">
-          <!-- <div> -->
           <input
             type="text"
             placeholder="Generation Y"
             class="__gen text-base w-full focus:outline-none py-2 pl-3 rounded-lg w-full"
           />
-          <!-- </div> -->
           <div class="absolute __search">
             <i class="fas fa-search text-sm"></i>
           </div>

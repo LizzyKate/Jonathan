@@ -3,19 +3,21 @@
     class="border-2 border-indigo-500 rounded-lg bg-white p-8 border-solid flex items-start justify-between"
   >
     <div class="w-1/2">
-      <h1 class="text-2xl font-semibold">Search</h1>
+      <h1 class="text-3xl font-semibold">Search</h1>
       <div>
-        <p class="font-medium text-gray-500 text-base mb-0">
+        <p class="font-light text-gray-800 text-2xl mb-0">
           Your home base for all your resources
         </p>
       </div>
-      <div class="flex items-center justify-between mr-5 mt-4">
+      <div class="flex items-center justify-between mr-5 mt-8">
         <button
-          class="bg-indigo-600 text-white text-base py-1 px-6 focus:outline-none rounded-full"
+          class="bg-indigo-600 text-white text-xl py-3 px-6 w-1/2 focus:outline-none rounded-full"
         >
           Tour
         </button>
-        <button class="text-indigo-500 text-base focus:outline-none">
+        <button
+          class="text-indigo-500 text-xl focus:outline-none py-3 px-6 w-1/2"
+        >
           Got it
         </button>
       </div>

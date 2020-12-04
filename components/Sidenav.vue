@@ -4,12 +4,12 @@
       <div
         class="bg-gray-400 p-2 mt-8 rounded-lg w-full flex justify-between items-center"
       >
-        <span class="text-xl font-semibold __all">All</span>
+        <span class="text-2xl font-semibold __all">All</span>
         <span class="text-base __all font-thin">34 Results</span>
       </div>
       <ul class="mt-4 list-none p-2">
-        <li class="text-gray-600 text-xl my-3">Images</li>
-        <li class="text-gray-600 text-xl my-4">Videos</li>
+        <li class="text-gray-600 text-2xl my-3">Images</li>
+        <li class="text-gray-600 text-2xl my-4">Videos</li>
       </ul>
     </div>
     <div class="mt-12 flex flex-col px-2">
@@ -20,7 +20,7 @@
             <i :class="link.font"></i>
           </div>
           <div class="ml-4">
-            <p class="text-gray-600 text-base">{{ link.text }}</p>
+            <p class="text-gray-600 text-xl">{{ link.text }}</p>
           </div>
         </div>
       </div>

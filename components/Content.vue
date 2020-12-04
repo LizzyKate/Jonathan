@@ -1,5 +1,5 @@
 <template>
-  <section class="flex">
+  <section class="flex sm:flex-wrap md:flex-no-wrap">
     <div class="w-1/2 -mx-5">
       <Search class="mx-5 mb-5" />
       <SearchResult class="mx-5" />

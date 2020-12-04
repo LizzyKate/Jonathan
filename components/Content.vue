@@ -1,10 +1,10 @@
 <template>
   <section class="flex">
     <div class="w-1/2 -mx-5">
-      <Search class="mx-5" />
+      <Search class="mx-5 mb-5" />
       <SearchResult class="mx-5" />
     </div>
-    <aside class="w-1/2">
+    <aside class="w-1/2 mx-5">
       <AsideComponent />
     </aside>
   </section>

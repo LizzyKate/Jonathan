@@ -1,20 +1,43 @@
-# jonathan
+# Jonathan's Solution for cline Test 👋
 
-## Build Setup
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
+[![Twitter: bemijonathan](https://img.shields.io/twitter/follow/bemijonathan.svg?style=social)](https://twitter.com/bemijonathan)
 
-```bash
-# install dependencies
-$ npm install
+> cline frontend developer interview
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+## Install
 
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
+```sh
+npm install
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Usage
+
+```sh
+npm run dev
+```
+
+## Run tests
+
+```sh
+npm run test
+```
+
+## Tools
+
+- Tailwind Css
+- Vuejs
+- Nuxtjs
+
+## Author
+
+👤 **Jonathan Atiene**
+
+- Website: bemijonathan.netlify.app
+- Twitter: [@bemijonathan](https://twitter.com/bemijonathan)
+- Github: [@bemijonathan](https://github.com/bemijonathan)
+- LinkedIn: [@bemijonathan](https://linkedin.com/in/bemijonathan)
+
+---
+
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

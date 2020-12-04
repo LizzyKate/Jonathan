@@ -20,8 +20,7 @@ export default {
   auth: {
     strategies: {
       google: {
-        clientId:
-          '984509632679-3aal6r248d9gfguuojvd19klq4fpr9v1.apps.googleusercontent.com',
+        clientId: process.env.CLIENT_ID,
         scope: ['profile', 'email'],
         codeChallengeMethod: '',
       },

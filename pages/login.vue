@@ -16,24 +16,67 @@
             Welcome back. We exist to make entrepreneurship easier..
           </p>
 
-          <div class="text-center mt-10">
-            <button
-              class="bg-red-500 py-2 px-5 rounded-md focus:outline-none outline-none w-1/2"
-              @click="google"
+          <div
+            class="flex flex-col justify-center md:justify-start my-auto pt-8 md:pt-0 px-8 md:px-24 lg:px-32"
+          >
+            <form
+              class="flex flex-col pt-3 md:pt-8"
+              onsubmit="event.preventDefault();"
             >
-              <svg
-                class="inline-block"
-                viewBox="0 0 16 16"
-                xmlns="http://www.w3.org/2000/svg"
-                style="width: 18px"
+              <div class="flex flex-col pt-4">
+                <label for="email" class="text-lg">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="your@email.com"
+                  class="appearance-none border rounded w-full py-2 px-3 text-gray-700 mt-1 leading-tight focus:outline-none focus:shadow-outline"
+                />
+              </div>
+
+              <div class="flex flex-col pt-4">
+                <label for="password" class="text-lg">Password</label>
+                <input
+                  type="password"
+                  id="password"
+                  placeholder="Password"
+                  class="appearance-none border rounded w-full py-2 px-3 text-gray-700 mt-1 leading-tight focus:outline-none focus:shadow-outline"
+                />
+              </div>
+
+              <input
+                type="submit"
+                value="Log In"
+                class="bg-black text-white font-bold text-lg hover:bg-gray-700 p-2 mt-8"
+              />
+            </form>
+            <div class="text-center mt-10">
+              <button
+                class="bg-red-500 py-2 px-5 rounded-md focus:outline-none outline-none w-full"
+                @click="google"
               >
-                <path
-                  d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z"
-                  style="fill: white"
-                ></path>
-              </svg>
-              <span class="ml-1 text-white">Sign in with Google</span>
-            </button>
+                <svg
+                  class="inline-block"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="width: 18px"
+                >
+                  <path
+                    d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z"
+                    style="fill: white"
+                  ></path>
+                </svg>
+                <span class="ml-1 text-white">Sign in with Google</span>
+              </button>
+            </div>
+
+            <div class="text-center pt-12 pb-12">
+              <p>
+                Don't have an account?
+                <n-link to="signup" class="underline font-semibold"
+                  >Register here.</n-link
+                >
+              </p>
+            </div>
           </div>
         </div>
       </div>

@@ -33,11 +33,15 @@
         >
           <i class="fas fa-plus text-base text-white"></i>
         </div>
-        <div
-          class="ml-4 rounded-full bg-black h-10 w-10 text-center flex items-center justify-center"
+        <button
+          class="ml-4 rounded-full bg-black h-10 w-10 text-center flex items-center justify-center text-xl text-white font-light outline-none focus:outline-none"
+          @click="
+            $auth.logout()
+            $router.push('/login')
+          "
         >
-          <p class="text-xl text-white font-light">F</p>
-        </div>
+          F
+        </button>
       </div>
     </div>
     <div class="w-full line"></div>
